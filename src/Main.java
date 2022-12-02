@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String welcome = "Hello and welcome!\n";
+        String welcome = "Hello and welcome!\nThe prices are $200 for an asle seat, $250 for a middle seat, and $300 for a window seat.\nIf you have a total above $1000, you will receive a $100 discount.";
         System.out.println(welcome);
         Reserve plane = new Reserve();
         plane.genReserve();
